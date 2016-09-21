@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		2053EB131D928BD6003E17A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB121D928BD6003E17A4 /* main.m */; };
 		2053EB161D928BD6003E17A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB151D928BD6003E17A4 /* AppDelegate.m */; };
-		2053EB191D928BD6003E17A4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB181D928BD6003E17A4 /* MasterViewController.m */; };
-		2053EB1C1D928BD6003E17A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB1B1D928BD6003E17A4 /* DetailViewController.m */; };
 		2053EB1F1D928BD6003E17A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2053EB1D1D928BD6003E17A4 /* Main.storyboard */; };
 		2053EB211D928BD6003E17A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2053EB201D928BD6003E17A4 /* Assets.xcassets */; };
 		2053EB241D928BD6003E17A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2053EB221D928BD6003E17A4 /* LaunchScreen.storyboard */; };
 		2053EB2F1D928BD6003E17A4 /* WSAlertActionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB2E1D928BD6003E17A4 /* WSAlertActionViewTests.m */; };
 		2053EB3A1D928BD6003E17A4 /* WSAlertActionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB391D928BD6003E17A4 /* WSAlertActionViewUITests.m */; };
+		2053EB491D928C1F003E17A4 /* WSAlertActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB481D928C1F003E17A4 /* WSAlertActionView.m */; };
+		2053EB4E1D928CD3003E17A4 /* btn_close_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2053EB4A1D928CD3003E17A4 /* btn_close_normal.png */; };
+		2053EB4F1D928CD3003E17A4 /* btn_close_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2053EB4B1D928CD3003E17A4 /* btn_close_normal@2x.png */; };
+		2053EB501D928CD3003E17A4 /* btn_close_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2053EB4C1D928CD3003E17A4 /* btn_close_selected.png */; };
+		2053EB511D928CD3003E17A4 /* btn_close_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2053EB4D1D928CD3003E17A4 /* btn_close_selected@2x.png */; };
+		2053EB541D928CE2003E17A4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053EB531D928CE2003E17A4 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +44,6 @@
 		2053EB121D928BD6003E17A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2053EB141D928BD6003E17A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2053EB151D928BD6003E17A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2053EB171D928BD6003E17A4 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		2053EB181D928BD6003E17A4 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		2053EB1A1D928BD6003E17A4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		2053EB1B1D928BD6003E17A4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		2053EB1E1D928BD6003E17A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2053EB201D928BD6003E17A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2053EB231D928BD6003E17A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,14 @@
 		2053EB351D928BD6003E17A4 /* WSAlertActionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSAlertActionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2053EB391D928BD6003E17A4 /* WSAlertActionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAlertActionViewUITests.m; sourceTree = "<group>"; };
 		2053EB3B1D928BD6003E17A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2053EB471D928C1F003E17A4 /* WSAlertActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAlertActionView.h; sourceTree = "<group>"; };
+		2053EB481D928C1F003E17A4 /* WSAlertActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAlertActionView.m; sourceTree = "<group>"; };
+		2053EB4A1D928CD3003E17A4 /* btn_close_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_normal.png; sourceTree = "<group>"; };
+		2053EB4B1D928CD3003E17A4 /* btn_close_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_normal@2x.png"; sourceTree = "<group>"; };
+		2053EB4C1D928CD3003E17A4 /* btn_close_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_selected.png; sourceTree = "<group>"; };
+		2053EB4D1D928CD3003E17A4 /* btn_close_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_selected@2x.png"; sourceTree = "<group>"; };
+		2053EB521D928CE2003E17A4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2053EB531D928CE2003E17A4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +112,16 @@
 		2053EB101D928BD6003E17A4 /* WSAlertActionView */ = {
 			isa = PBXGroup;
 			children = (
+				2053EB4A1D928CD3003E17A4 /* btn_close_normal.png */,
+				2053EB4B1D928CD3003E17A4 /* btn_close_normal@2x.png */,
+				2053EB4C1D928CD3003E17A4 /* btn_close_selected.png */,
+				2053EB4D1D928CD3003E17A4 /* btn_close_selected@2x.png */,
+				2053EB471D928C1F003E17A4 /* WSAlertActionView.h */,
+				2053EB481D928C1F003E17A4 /* WSAlertActionView.m */,
+				2053EB521D928CE2003E17A4 /* MainViewController.h */,
+				2053EB531D928CE2003E17A4 /* MainViewController.m */,
 				2053EB141D928BD6003E17A4 /* AppDelegate.h */,
 				2053EB151D928BD6003E17A4 /* AppDelegate.m */,
-				2053EB171D928BD6003E17A4 /* MasterViewController.h */,
-				2053EB181D928BD6003E17A4 /* MasterViewController.m */,
-				2053EB1A1D928BD6003E17A4 /* DetailViewController.h */,
-				2053EB1B1D928BD6003E17A4 /* DetailViewController.m */,
 				2053EB1D1D928BD6003E17A4 /* Main.storyboard */,
 				2053EB201D928BD6003E17A4 /* Assets.xcassets */,
 				2053EB221D928BD6003E17A4 /* LaunchScreen.storyboard */,
@@ -248,9 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2053EB511D928CD3003E17A4 /* btn_close_selected@2x.png in Resources */,
+				2053EB4E1D928CD3003E17A4 /* btn_close_normal.png in Resources */,
 				2053EB241D928BD6003E17A4 /* LaunchScreen.storyboard in Resources */,
+				2053EB501D928CD3003E17A4 /* btn_close_selected.png in Resources */,
 				2053EB211D928BD6003E17A4 /* Assets.xcassets in Resources */,
 				2053EB1F1D928BD6003E17A4 /* Main.storyboard in Resources */,
+				2053EB4F1D928CD3003E17A4 /* btn_close_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2053EB491D928C1F003E17A4 /* WSAlertActionView.m in Sources */,
 				2053EB161D928BD6003E17A4 /* AppDelegate.m in Sources */,
-				2053EB191D928BD6003E17A4 /* MasterViewController.m in Sources */,
 				2053EB131D928BD6003E17A4 /* main.m in Sources */,
-				2053EB1C1D928BD6003E17A4 /* DetailViewController.m in Sources */,
+				2053EB541D928CE2003E17A4 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
